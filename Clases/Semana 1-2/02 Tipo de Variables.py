@@ -4,11 +4,18 @@ print("************************")
 print("* 002 - Tipos de datos *")
 print("************************")
 
+
+
 #Crea una variable a la que asignarás tu nombre completo, dos nombres y dos apellidos, como un texto. Muestra por pantalla el contenido de la variable.
 
-nombreCompleto= "Johan Jair Gilces Reyes"
+
+
+
+
+
+nombre_completo= "Johan Jair Gilces Reyes"
 print("Mi nombre es :")
-print(nombreCompleto)
+print(nombre_completo)
 
 #Usa la variable fechaDeViaje a la que asignarás tu fecha de tu viaje como un texto. Muestra por pantalla el contenido de la variable.
 
