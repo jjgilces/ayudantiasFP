@@ -7,15 +7,11 @@ print("************************")
 
 
 #Crea una variable a la que asignarás tu nombre completo, dos nombres y dos apellidos, como un texto. Muestra por pantalla el contenido de la variable.
+name= "Johan Jair Gilces Reyes"
 
 
-
-
-
-
-nombre_completo= "Johan Jair Gilces Reyes"
 print("Mi nombre es :")
-print(nombre_completo)
+print(name)
 
 #Usa la variable fechaDeViaje a la que asignarás tu fecha de tu viaje como un texto. Muestra por pantalla el contenido de la variable.
 
@@ -26,7 +22,7 @@ print(fechaDeViaje)
 
 #Crea una variable a la que asignarás tu edad como un número entero. Muestra por pantalla el contenido de la variable.
 
-edad= 18
+edad= 19
 print("La edad del viajero es:")
 print(edad, "años")
 
@@ -37,5 +33,5 @@ print("El costo del boleto es", costoBoleto, "dolares")
 
 #Crea una variable a la que asignarás si viajarás solo o no. El valor será de tipo lógico (True o False). Muestra por pantalla el contenido de la variable viajoSolo.
 
-viajoSolo = True
+viajoSolo = False
 print("Estas vacaciones viajaré solo: ",  viajoSolo  )
