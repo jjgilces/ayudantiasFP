@@ -14,11 +14,11 @@ sumaFrutas=[]
 contadorHidratos=0 #15
 for i in grasasOrdenadas:
     indiceGrase = grasas.index(i) #2
-    hidrato = hidratos[indiceGrase] 
-    contadorHidratos=contadorHidratos+ hidrato  
-    if(contadorHidratos<30):
+    hidrato = hidratos[indiceGrase]   
+    if(contadorHidratos+hidrato<30):
+        contadorHidratos=contadorHidratos+ hidrato
         fruta = frutas[indiceGrase]
         print(fruta, hidrato)
-print(sum())
+
 
 
