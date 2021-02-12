@@ -1,0 +1,97 @@
+Elecciones Presidenciales
+Candidato: Almeida
+voto totales: 5.31947794890827
+voto mujeres: 7.627256464465766
+voto hombres: 3.9029746456378516
+
+
+Candidato: Andrade
+voto totales: 6.847281499350529
+voto mujeres: 8.13140348024069
+voto hombres: 6.059093631463366
+
+
+Candidato: Arauz
+voto totales: 51.27110781221006
+voto mujeres: 34.68856724670678
+voto hombres: 61.44939109602715
+
+
+Candidato: Carrasco
+voto totales: 2.7834477639636295
+voto mujeres: 3.6591315661083104
+voto hombres: 2.245957276901577
+
+
+Candidato: Celi
+voto totales: 5.257623554153523
+voto mujeres: 6.911692958204586
+voto hombres: 4.242363745258534
+
+
+Candidato: Freile
+voto totales: 1.4226510793591884
+voto mujeres: 1.8702228004553585
+voto hombres: 1.1479337193052506
+
+
+Candidato: Gutierrez
+voto totales: 0.2474175790189893
+voto mujeres: 0.3252561392096276
+voto hombres: 0.19964064683569574
+
+
+Candidato: Hervas
+voto totales: 4.14424444856807
+voto mujeres: 5.448040331761262
+voto hombres: 3.343980834497904
+
+
+Candidato: Larrea
+voto totales: 1.360796684604441
+voto mujeres: 1.7889087656529516
+voto hombres: 1.0980235575963266
+
+
+Candidato: Lasso
+voto totales: 6.803983423022205
+voto mujeres: 8.94454382826476
+voto hombres: 5.490117787981633
+
+
+Candidato: Montufar
+voto totales: 2.7834477639636295
+voto mujeres: 3.6591315661083104
+voto hombres: 2.245957276901577
+
+
+Candidato: Pena
+voto totales: 1.4226510793591884
+voto mujeres: 1.8702228004553585
+voto hombres: 1.1479337193052506
+
+
+Candidato: Perez
+voto totales: 3.4638461062658497
+voto mujeres: 4.553585948934786
+voto hombres: 2.7949690556997404
+
+
+Candidato: Romero
+voto totales: 0.7422527370569679
+voto mujeres: 0.9757684176288828
+voto hombres: 0.5989219405070872
+
+
+Candidato: Sagnay
+voto totales: 0.8659615265664624
+voto mujeres: 1.1383964872336965
+voto hombres: 0.6987422639249351
+
+
+Candidato: Velasco
+voto totales: 5.263808993628998
+voto mujeres: 8.407871198568873
+voto hombres: 3.333998802156119
+
+
