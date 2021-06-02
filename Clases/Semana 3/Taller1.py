@@ -32,8 +32,7 @@ condicionT= condicion1 and condicion2
 # •	Cuál es el estudiante con mayor edad.
 # •	Cuál es el estudiante con menor edad.
 # •	Cuál es el promedio de edad de todos los estudiantes.
-nombres=[]
-edades=[]
+
 # nombre1 = input("Ingrese un nombre:")
 # nombre2 = input("Ingrese un nombre:")
 # nombre3 = input("Ingrese un nombre:")

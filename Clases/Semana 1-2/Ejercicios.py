@@ -12,7 +12,7 @@ c +=10
 
 # print(c)  #
 
-# print(3*'perreo'+2*'gato')
+print(3*'perreo'+2*'gato')
 
 
 # print(5!=5 or 7>=5) 
@@ -51,6 +51,8 @@ c= c%(a+b)
 # hipotenusa = ((catetoA**2 )+ (catetoB**2)) ** (1/2)
 # print("La hipotenusa del triangulo es: %.2f"%(hipotenusa))
 
+print("Palabra:{}\nTotal de caracteres: {}\enCadena repetida:{}\nDos últimos caracteres:{}\nCadena escrita al reves:{}\ncontraseña".format(palabra,longitud,palabraX5,últimos,al reves,password))
+
 
 
 #5 Un número narcicista es aquel que es igual a la suma de sus dígitos elevados a la potencia de su número de cifras. Su nombre se debe a lo mucho que parece "quererse a sí mismos". 
@@ -84,6 +86,5 @@ print("¿numero es igual que total? {}".format(esNarcicista) )
 
 
 
-#6 Escribir un programa en Python que permita el ingreso de un número, asumir que el usuario siempre ingresará 3 cifras, deberá mostrar por pantalla True si cumple las siguientes condiciones:
-#  El primer número es mayor que el último número, pero menor que el segundo
-# Al menos un número es par
+
+

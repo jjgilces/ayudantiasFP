@@ -13,35 +13,35 @@ print("\n")
 #Regla 4: Utiliza nombres cortos
 #Regla 5: Cada lenguaje tiene un estilo de escritura*
 
-
 #Crea una variable que contendrá tu nombre. Asigna tu nombre a la variable.
 
+nombre= "Johan"
 
 #Muestra el contenido de la variable con tu nombre 
-
+print(nombre)
 
 
 #Ahora, crea una variable que contendrá el lugar de destino de tus vacaciones. Asigna el lugar que deseas ir de vacaciones.
-#place= "Amsterdam" 
+place= "Amsterdam" 
 
 
 #Muestra el contenido de la variable con el lugar de destino de tus vacaciones
 
-print("Destino de las vacaciones: "  )
+print("Destino de las vacaciones: ", place  )
 
 
 #Crea una variable con la fecha del viaje que deseas realizar. Asigna la fecha a la variable. Utiliza la notación con _
 
-fecha_viaje= ""
+fecha_viaje= "12 Julio del 2021"
 
 #Muestra el contenido de la variable con la fecha del viaje
 
-print("Fecha del viaje: ")
+print("Fecha del viaje: ",fecha_viaje)
 
 #Crea la variable para el nombre de la aerolínea. Asigna el nombre de una aereolínea. Utiliza la notación con la primera letra de cada palabra en mayúsculas
 
-aerolinea= "Tame"
+aerolinea= "Tames"
 #Muestra el nombre de la aereolínea
-print("¡Viajando por ","!")
+print("¡Viajando por ",aerolinea,"!")
 
 print("\n")

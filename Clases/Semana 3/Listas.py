@@ -1,9 +1,32 @@
-listaVacia=[]
-# listaVacia2=list()
-listaVacia.append(1)
-listaVacia.append("Johan")
+
+"""
+LISTAS 
+Carateristicas:
+1.   Mutables
+2.   Permite cualquier tipo de dato
+"""
+## Creación de listas 
+
+
+##Añadir elementos 
+
 
 # print(listaVacia)
+## Operaciones de Listas
+
+#1.   Suma
+#2.   Multiplicacion
+## Busqueda en listas"""
+
+
+
+"""Ordenamiento"""
+
+
+
+"""## Cambio de elementos"""
+
+
 
 
 nombres=["Carlos","Juan","Roberto"]

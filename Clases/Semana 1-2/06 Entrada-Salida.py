@@ -9,8 +9,9 @@ print("************************")
 
 #Agrega las líneas de código para ingresar el nombre completo y la cédula.
 
-nombresCompletos = input("INGRESE SU NOMBRE COMPLETO:") #String 
-cedula =input("INGRESE SU NUMERO DE CEDULA:")
+nombresCompletos =  input("Ingrese su nombre completo: ") #STRING 
+cedula = input( "Ingrese su numero de cedula : ")
+#098253252 --> 98253252
 
 # Los enteros no comienzan con 0 
 
@@ -19,12 +20,22 @@ print("Nombres completos del viajero:", nombresCompletos)
 print("C.C.: ", cedula)
 
 #Agrega las líneas de código para ingresar los datos que necesita el sistema de aduanas(edad, dinero en efectivo y el numero de pasajeros).
-edad= int(input("Ingrese su edad"))
+edad= int(input("Ingrese su edad: "))
 dineroEfectivo= float(input("Ingrese su dinero en efectivo:"))
 numeroPasajeros= int(input("Numero de pasajeros:"))
 #Muestra el contenido de las variables edad, dineroEfectivo y pasajeros. Utiliza un mensaje adecuado.
+
+# print("Hola, tu nombre es  %s , tienes  %d años, tu dinero en efectivo es "%(nombresCompletos,edad, dineroEfectivo))
+
+print()
+print()
+print()
+
 print("La edad del pasajero es {} \nSu dinero en efectivo es {} \nNumero de pasajeros {}".format(edad,dineroEfectivo,numeroPasajeros))
 
+print()
+print()
+print()
 print("----" * 10)
 print(" Sistema de Identificación de Aduanas")
 print("----" * 10)
