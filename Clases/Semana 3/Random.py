@@ -1,19 +1,17 @@
 import random as rd
 
+# randrange, choice , randint
+#1 2 3 4 10 
+numero= rd.randrange(11)  #nunc
 
-calificaciones=[7,5,3,10]
-nombres=["Carlos Loja","Javier Guevara","Robert Ruiz","Camila Ramirez"]
-# Se pide mostrar por pantalla si el estudiante aprobo o no(Aprueba si su calificacion es mayor a 6), de la siguiente 
-# forma:
-# "El estudiante Carlos Loja ha aprobado"
-# "El estudiante Javier Guevara ha reprobado"
-#Escoga un estudiante al azar 
-cantidad= len(nombres)
-numAl= rd.randint(0,cantidad-1)
+numero2=rd.randint(5,15)
+# print(numero)
+# print(numero2)
 
-calificacion= calificaciones[numAl]
-nombre= nombres[numAl]
-if calificacion >6:
-    print("El estudiante {} ha aprobado".format(nombre))
-else:
-    print("El estudiante {} NO  ha aprobado".format(nombre))
+
+lista=[18,19,20,34,12]
+#escoja aleatorio de la lista
+edad=rd.choice(lista)
+
+print(edad)
+#Genere 2 numeros de dados, pida al usuario su nombre y 2 numeros para

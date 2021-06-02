@@ -14,19 +14,6 @@ print(condicion,condicion2,condicion3)
 
 
 
-# dado1 = randint( 2, 15 )
-# print(dado1)
-# dado2 = randint( 3, 15 )
-# nombre = input("Ingrese su nombre:" )
-# adivinanza = input( "Ingrese el valor del dado:")
-# puntaje = 0
-# if dado1 == adivinanza:
-#  print("Acabas de adivinar el primer dado")
-#  puntaje = puntaje + 10
-# if dado2 == adivinanza:
-#  print("Acabas de adivinar el segundo dado")
-#  puntaje = puntaje + 10
-# print("{} tu puntaje {}".format( nombre, puntaje ))
 
 
 # Escribir un programa que almacene en una lista los
@@ -61,4 +48,3 @@ if calificacion >6:
     print("El estudiante {} ha aprobado".format(nombre))
 else:
     print("El estudiante {} NO  ha aprobado".format(nombre))
-# Solicite dos números.  El primer número entre 1 y 10 y el segundo entre 10 y 20. Genere una lista con los números en el rango ingresado.  Asuma que el usuario va a ingresar un número en el rango indicado.  Presente la lista.
