@@ -1,5 +1,6 @@
 # Fundamentos de Programación 👋
-Ayudantias de docencia de la materia Fundamentos de Programación. Periodo: 2021-1s
+Ayudantias de docencia de la materia Fundamentos de Programación. 
+Periodo: 2021-1s
 
 
 | Ayudantia | Horario |
