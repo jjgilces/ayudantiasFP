@@ -1,4 +1,4 @@
-from random as rd
+import random as rd
 # Escriba un programa que lea por teclado un correo electrónico. Luego, deberá mostrar un mensaje indicando si es un correo comercial o no. Un correo comercial se identifica porque
 # termina por “gmail.com”, “hotmail.com” o “live.com” 
 correo= "johanjairgr@hotmail.com"
