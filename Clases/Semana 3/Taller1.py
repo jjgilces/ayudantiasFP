@@ -1,9 +1,9 @@
 # Escribir un programa en Python que solicite un número por teclado y muestre True sí el número se encuentra bajo las siguientes condiciones: 
 # El número debe estar entre 25 y 60 sin incluir el 40 ó entre -20 y -40 sin incluir el -30; además el número debe ser divisible para 2 y elevado al cuadrado debe ser menor que 1000.
-
 # num = int(input("Ingrese un numero: "))
 # El número debe estar entre 25 y 60 sin incluir el 40
 #
+num=21
 condicion1= (25<num<60) and num !=40
 #  entre -20 y -40 sin incluir el -30
 condicion2 =num>-20 and num<-40 and num !=-30
