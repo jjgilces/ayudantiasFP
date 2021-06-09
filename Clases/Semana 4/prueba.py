@@ -1,41 +1,5 @@
-prodsL=[]
-costosL=[]
-eL=[]
-print("1)Consulta de productos\n2)Encarecimiento de productos\n3)Compra productos\n4)Salir")
-
-opc = int(input("Ingrese una opcion del menú"))
-while(opc!=4):
-    if(opc==1):
-        valor = float(input("Ingrese un valor de referencia"))
-        for i in range(len(costosL)):
-            if(costosL[i]>=valor):
-                print(prodsL[i], costosL[i])
-    if(opc==2):
-        enc = input("Ingrese el encarecimiento\n1)Positivo\n2) Negativo").lower()
-        while(enc!="positivo" or ec!="negativo"):
-              enc = input("Ingrese un encarecimiento correcto\n1)Positivo\n2) Negativo").lower()
-        lista=[]
-        if(enc=="positivo"):
-            for i in eL:
-                if(i>0):
-                    lista.append(i)
-        elif(enc=="negativo"):
-            for i in eL:
-                if(i<0):
-                    lista.append(i)
-        print("La cantidad de productos con encarecimiento",enc,"es",len(lista))
-        print("El promedio es", sum(lista)/len(lista))
-    if (opc==3):
-        dinero = int(input("Ingrese su dinero:"))
-        costoO = costosL.copy()
-        costoO.sort
-        print(costoO)
-        print("Su dinero le alcanza a comprar:")
-        while(dinero>0):
-            for i in costoO:
-                ind= costosL.index(i)
-                dinero-=i
-                print(prodsL[ind])
-    
-
-
+pedidos= [['charlote-torta vainilla-1', 'dan-pie de manzana-1', 'ana-torta sach-1', 'joey-torta sach-1', 'walter-torta sach-2', 'ana-galletas de coco-3', 'reese-caja cupcakes-1', 'dan-torta sach-1', 'pete-cheesecake-1'],
+          ['pete-galletas de coco-1', 'ana-caja cupcakes-1', 'dan-caja macarroons-1', 'chuck-caja cupcakes-1', 'serena-galletas de coco-1', 'chuck-caja macarroons-1', 'chuck-tiramisu-1', 'walter-torta sach-1', 'serena-pie de manzana-1', 'chuck-tiramisu-1'],
+          ['amalia-pie de manzana-2', 'skyler-torta de naranja-2', 'pete-torta de naranja-1', 'rachel-caja cupcakes-1'],
+          ['amalia-caja cupcakes-1', 'rachel-torta sach-1', 'dan-torta de naranja-1', 'charlote-torta vainilla-1', 'rachel-caja cupcakes-1', 'joey-caja macarroons-1'],
+          ['skyler-selva negra-1', 'betty-tiramisu-1', 'carrie-torta vainilla-1', 'reese-tiramisu-1', 'serena-cheesecake-1', 'charlote-torta vainilla-1']]
