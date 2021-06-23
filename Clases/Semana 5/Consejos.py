@@ -53,3 +53,8 @@ indiceMax = estudiantes.index(maximo) #5
 facultadMax = facultades[indiceMax]
 
 promedio = sum(estudiantes)/len(estudiantes)
+
+
+
+import Funciones as f
+promedio(f.listaC)
