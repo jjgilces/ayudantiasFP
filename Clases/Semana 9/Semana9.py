@@ -43,7 +43,7 @@ def  generaPaises(promedios,metrica,minimo,maximo):
         if minimo<=valor<=maximo:
             archivo.write("{},{},{}".format(pais,metrica,valor))
             archivo.write("\n")
-            archivo.writelines()
+          
     archivo.close()
 
 generaPaises(promedios,"precioCasas",100,1000000000)
