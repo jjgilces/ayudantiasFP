@@ -1,53 +1,28 @@
 # Escriba un programa que pida ingresar una contraseña para su sitio web.
 
-password = input("Ingrese su contraseña: ")  # hola   Hola como estas
+anime="Naruto Shippeden"
+anime2="Doraemon"
+anime3= "Tokyo Ghoul"
 
-# El programa deberá presentar y realizar las siguientes operaciones:
-# Para validacines futuras, el programador necesita conocer el numero total de caracteres
-
-numCaracteres = len(password) #numero de caracteristico >8 
-print("El numero de caracteres es", numCaracteres)
-
-
-# En caso de que se olvide su contraseña el usuario podrá visualizar el primer caracter y el ultimo caracter de su contraseña
-
-#Espol1990
-#HOLAMUNDO12903477 
-#01234567
-
-firstC= password[0]
-lastC= password[-1]
-# ultimo -->-1 
-
-#E  0
-
-
-print(firstC, lastC)
-
-
-# La base de datos almacenará la cadena al revez, cree una variable que almacene esta nueva variable
-#Johan  nahoJ 
-passwordAlReves= password[::-1]  
-#[inicio: final-1:-1]
-
-
-print(passwordAlReves)
-# El sistema no permite ingresar cadenas que contengan la letra "a". Cambie La cadena con cada letra “a” remplazada por una “e” o alguna otra letra
-
-passwordOK= password.replace("a","e")
-
-#holamimama
-#amamimaloh
-#ememimeloh
-#holemimeme
-
-print(passwordOK)
-# Debido a una cuestion de seguroidad debe proteger su contraseña de la interfaz de usuario.    Ej: Chao ---> * * * *
-print("*"*numCaracteres)
+slicing1= anime3[6:]
+print(anime3[1::2])
 
 
 
-#ENCONTRAR UN CARACTER 
-posicionA= password.find("e")
-print(posicionA)
+#indexacion
+letra_r= anime[2]
+print(letra_r)
+letra_t= anime[4]
+print(letra_t)
+
+pl1= anime[0]
+pl2=anime2[0]
+
+#la ultima letra
+ll1=anime[-1]
+ll2=anime2[-1]
+
+
+#SI QUIERO OBTENER EL ULTIMO ELEMENTO 
+#iNDEXO EN -1
 

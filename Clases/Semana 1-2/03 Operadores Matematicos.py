@@ -9,7 +9,7 @@ print("********************************")
 numeroPasajeros= 12
 
 #Calcula y asigna el subtotal a pagar en la variable subtotalAPagar. Para esto,  el valor de los pasajes es de $2.50.  
-subtotalAPagar= numeroPasajeros * 2.5
+
 
 print ("Subtotal a pagar es:", subtotalAPagar)
 
@@ -19,7 +19,8 @@ ivaAPagar= subtotalAPagar * 0.12
 
 
 #Finalmente, obtén el total al pagar en totalAPagar con la suma del subtotalAPagar y el ivaAPagar.
-totalAPagar= subtotalAPagar + ivaAPagar
+
+#totalAPagar
 
 
 #Muestra en orden el valor de cada una de las variables anteriores.
@@ -32,15 +33,11 @@ print('total a pagar', totalAPagar)
 #  "Recibe 1 boleto gratis por cada 6 boletos comprados"
 
 #Calcula y asigna el número de boletos gratis en la variable 
-boletosPromocion= numeroPasajeros//6
+boletosPromocion= 
 
 
 print("Boletos por promoción:")
 print(boletosPromocion)
 
 
-#PAR O IMPAR 
-numero = 30
-isPar = numero %2==0
-isImpar = numero %2!=0
-print(isPar)
+
