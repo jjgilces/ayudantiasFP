@@ -48,3 +48,10 @@ if calificacion >6:
     print("El estudiante {} ha aprobado".format(nombre))
 else:
     print("El estudiante {} NO  ha aprobado".format(nombre))
+
+
+
+
+print() 
+
+string=" "
