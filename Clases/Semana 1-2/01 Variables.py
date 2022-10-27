@@ -1,3 +1,4 @@
+# coding=utf-8
 #Programa 001-Variables
 #Este es un comentario. Este comentario no saldrá en la ejecución del programa.
 print("\n")

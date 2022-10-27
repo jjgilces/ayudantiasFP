@@ -1,4 +1,3 @@
-# Escriba un programa que pida ingresar una contraseña para su sitio web.
 
 anime="Naruto Shippeden"
 anime2="Doraemon"

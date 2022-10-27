@@ -47,3 +47,16 @@ print("EL PROGRAMA SE ACABA")
 
 
 
+def crear():
+    dicc= {}
+    salir= ""
+    while salir!="fin": 
+        nombre= input("ingrese su nombre...")
+        materia=""
+        #agrego al pana al diccionario 
+        dicc.setdefault(nombre, {})
+        while materia!="salir":
+            materia=input(" ingrese materia y nota")
+            #agregas la materia al diccionario
+            dicc[nombre]=materia
+       
