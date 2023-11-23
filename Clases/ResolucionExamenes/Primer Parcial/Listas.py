@@ -6,7 +6,8 @@ Carateristicas:
 3.   Son ordenadas
 """
 ## Creación de listas vacias
-
+lista =[]
+lista2= list()
 
 ##Crear una lista --> a partir de un string
 
@@ -18,7 +19,7 @@ ingredientes="tomate, cebolla ,pimiento,arroz"
 lista4= nombres.split(",")
 fecha= "4/7/2022"
 
-lista_fecha= fecha.split()
+lista_fecha= fecha.split("/")
 
 lista=[]
 
@@ -27,19 +28,20 @@ lista=[]
 
 """Busqueda en listas"""
 print(lista)
-indice= lista.index(4)   #0
+lista =[2,4,6]
+indice= lista.index(4)   #1
 print(indice)
 elemento=lista[indice]
 print(elemento)
-
+#find --> -1 si no encuentra el elemento
 
 
 """Ordenamiento"""
-lista.sort()
-print(lista)#[1,1,2,4,4]
-#de pequeño a más grande
-#top 3 
-lista.sort(reverse=True) #[4,4,2,1,1]
+lista =[2,4,10,1,4,6]
+
+listaOrdenada=lista.sort()
+#mayor a menor 
+listaOrdenada= listaOrdenada[::-1]
 
 
 """Invertir una lista"""

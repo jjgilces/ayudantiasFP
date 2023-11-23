@@ -1,16 +1,23 @@
-opcion=""
-while opcion!="5": 
-    print("Bienvenido a la tienda Konoha\n1)Comprar anime\n2)Agregar anime\n3)Generar catalogo según presupuesto\n4) Recomendar animes por genero\n5)Salir")
-    opcion= input("Ingrese su opción: ")
-    if not opcion.isdigit(): 
-        print("\nIngresa un numero valido\n ")
-    if opcion=="1": 
-        print("Comprar anime")
-    elif opcion=="2": 
-        print("Agregar anime")
-    elif opcion=="3": 
-        print("Generar catalogo según presupuesto")
-    elif opcion=="4": 
-        print("Recomendar animes por genero")
-    elif opcion=="5": 
-        print("Esta saliendo de la tienda ")
+# 2 tipos de for 
+
+precios = [2,3,4,5,76,2]
+nombre= ["ARROZ","LECHE","HUEVOS","PAN","AJO"]
+for elemento in lista:
+    print(elemento)
+
+#listas paralelas
+#IMPRIMA LOS PRODUCTOS QUE TENGAN UN COSTO MAYOR A $4
+for i in range(len(lista)):
+    precio = precios[i]
+    nombre = nombres[i]
+    if precio>4:
+        print(nombre)
+
+
+
+#primer elemento 
+lista[0]
+
+
+#ultimo elemento 
+lista[-1]

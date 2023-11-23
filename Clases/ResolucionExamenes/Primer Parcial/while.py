@@ -8,9 +8,27 @@ WHILE
 - Tener cuidado de no hacer un ciclo infinito 
 
 """
+
+
 print("************************")
 print("* WHILE *")
 print("************************")
+
+
+#Validar que el usuario ingresa un numero entre del 1 al 10
+numero = int(input("ingrese un digito del 1 al 10:"))
+
+#debo pedirlo al usuario voler a ingresar cuando NO CUMPLA LAS CONDICIONES
+while  numero>10 or numero<1: 
+    numero = int(input("ingrese un digito CORRECTO del 1 al 10:"))
+
+vidas =3
+
+while  vidas>0   : 
+    #jugar
+    print("jugando")
+
+
 
 
 
