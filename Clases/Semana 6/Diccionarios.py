@@ -33,7 +33,7 @@ calificacion = diccionario.get("calificacion",0)
 
 
 diccionario.setdefault("matricula","2019")
-diccionario["matriculas"]="2020"
+diccionario["matricula"]="2020"
 print(calificacion)
 print(diccionarioP)
 print(diccionario)
@@ -41,10 +41,36 @@ print()
 
 
 
-claves= diccionario.keys()
-valores= diccionario.values()
-items= diccionario.items()
-print(claves)
-print(valores)
-print(items)
-[('nombre', 'Johan'), ('edad', 21), ('hobbies', ['leer', 'deporte']), ('calificacion', 7), ('matricula', '2019'), ('matriculas', '2020')]
+#csv 
+#1,Juan,Arroz 
+#2,Pepe,Cebolla
+#3,Juan,Tomate
+
+#{juan: [arroz,tomate],pepe:[cebollla]}
+dicc={}
+archivo = open("Semana 6/compras.csv")
+for linea in archivo:
+    id,nombre,producto= linea.strip().split(",")
+    # lista= linea.split(",")
+    # id=lista[0]
+    # nombre=lista[1]
+    # compra=lista[2]
+    # if nombre not in dicc:
+    #     dicc[nombre]=[producto]
+    # else: 
+    #     dicc[nombre].append(producto)
+    lista= dicc.setdefault(nombre,[])
+    lista.append(producto)
+print(dicc)
+
+
+dicc.keys()
+dicc.values()
+
+for clave,valor in dicc.items():
+    print(clave)
+    print(valor)
+    print()
+
+
+
